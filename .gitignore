@@ -1,9 +1,39 @@
+# Virtual environments
 mp_env/
 venv/
+env/
+ENV/
+.venv/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
 *.pyd
 *.dll
-*.so
-*.exe
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Data and models (uncomment if you don't want to track these)
+# data/
+# models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large binary files
 *.npz
+*.pkl
+*.h5
+*.hdf5
